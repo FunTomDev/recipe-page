@@ -81,6 +81,10 @@ main{
 
 .container{
 
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
     width: 736px;
 
     padding: 40px;
@@ -114,6 +118,7 @@ h2{
     color: var(--clr-primary-400);
     font-family: var(--ff-heading);
     font-weight: var(--fw-regular);
+    font-size: 1,5rem;
 
 }
 
@@ -145,6 +150,21 @@ table{
 
     td{
         padding: 1rem;
+    }
+
+}
+
+ol {
+
+    padding: 0 20px;
+
+    list-style-position: outside;
+
+    li::marker{
+
+        color: var(--clr-primary-400);
+        font-weight: var(--fw-semibold);
+    
     }
 
 }
