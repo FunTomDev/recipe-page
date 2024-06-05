@@ -32,7 +32,7 @@
 
 .padding-block-inline-500{
 
-    padding: 0 2rem;
+    padding: 0 1rem;
 
 }
 
@@ -126,7 +126,7 @@ h3{
 
     color: var(--clr-primary-500);
     font-family: var(--ff-body);
-    font-weight: var(--fw-semibold);
+    font-weight: var(--fw-bold);
 
 }
 
